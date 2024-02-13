@@ -1,15 +1,12 @@
 package org.example;
 
-import java.util.Collections;
-import java.util.Optional;
 import java.util.OptionalInt;
-import java.util.Scanner;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-import java.util.OptionalInt;
 
-public class Main {
+
+public class LC_ReverseInteger {
     public int reverse(int x) {
         if (x == 0) return 0;
         try {
@@ -31,7 +28,7 @@ public class Main {
         }
     }
     public static void main(String[] args) {
-        Main main = new Main();
-        System.out.println(main.reverse(125));
+        LC_ReverseInteger LCReverseInteger = new LC_ReverseInteger();
+        System.out.println(LCReverseInteger.reverse(125));
     }
 }
